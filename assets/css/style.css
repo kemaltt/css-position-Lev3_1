@@ -86,7 +86,6 @@ nav ul li:hover {
 
 main {
     margin-top: 2rem;
-    display: flex;
 }
 
 main div {
@@ -94,7 +93,9 @@ main div {
 }
 
 main .article {
-    width: 50%;
+    position: relative;
+    bottom: 7rem;
+    width: 49%;
     padding: 14rem 0 0 13rem;
 }
 
